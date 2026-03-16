@@ -1,12 +1,19 @@
-- 👋 Hi, I’m @jisunn17
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Paragon Nexus Landing Page
 
-<!---
-jisunn17/jisunn17 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Website statis bertema Web3.
+
+## Menjalankan secara lokal
+
+Cukup buka `index.html` langsung di browser, atau jalankan server lokal sederhana:
+
+```bash
+python3 -m http.server 8080
+```
+
+Lalu buka `http://localhost:8080`.
+
+## Struktur file
+
+- `index.html` — struktur halaman
+- `styles.css` — styling dan layout responsive
+- `script.js` — simulasi live stats sederhana

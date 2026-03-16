@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ParagonChain-Style Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="brand">
+          <span class="brand-dot"></span>
+          <span>Paragon Nexus</span>
+        </a>
+        <nav class="main-nav">
+          <a href="#features">Fitur</a>
+          <a href="#tokenomics">Tokenomics</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <button class="wallet-btn">Connect Wallet</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Web3 Infrastructure Layer</p>
+            <h1>Build, Scale, and Govern on a Next-Gen Chain.</h1>
+            <p class="hero-copy">
+              Platform bergaya ParagonChain untuk staking, node rewards, dan komunitas governance.
+              Cepat, aman, serta dirancang untuk adopsi massal.
+            </p>
+            <div class="hero-cta">
+              <a href="#" class="btn primary">Launch App</a>
+              <a href="#features" class="btn secondary">Explore Ecosystem</a>
+            </div>
+            <div class="hero-meta">
+              <div><strong>$142M+</strong><span>Total Value Locked</span></div>
+              <div><strong>3.2M+</strong><span>Transactions / day</span></div>
+              <div><strong>99.98%</strong><span>Uptime network</span></div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Live Network Stats</h2>
+            <div class="stat-row"><span>Block Height</span><strong id="block-height">10,483,291</strong></div>
+            <div class="stat-row"><span>Gas Fee (avg)</span><strong id="gas-fee">0.00042 PGN</strong></div>
+            <div class="stat-row"><span>Stakers</span><strong id="stakers">486,233</strong></div>
+            <div class="progress-wrap">
+              <span>Epoch 47 Progress</span>
+              <div class="progress"><div class="fill" id="epoch-progress"></div></div>
+            </div>
+            <button class="btn primary full">Stake Now</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section container">
+        <h2>Core Features</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Ultra Fast Settlement</h3>
+            <p>Throughput tinggi dengan finality cepat untuk dApps skala enterprise.</p>
+          </article>
+          <article class="card">
+            <h3>Secure Validator Layer</h3>
+            <p>Mekanisme proof-of-stake yang transparan dengan insentif validator sehat.</p>
+          </article>
+          <article class="card">
+            <h3>On-chain Governance</h3>
+            <p>Pemegang token dapat mengusulkan dan voting upgrade protokol secara real-time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tokenomics" class="section container">
+        <h2>Tokenomics</h2>
+        <div class="cards two">
+          <article class="card">
+            <h3>Token Utility</h3>
+            <ul>
+              <li>Pembayaran biaya transaksi</li>
+              <li>Staking dan validator rewards</li>
+              <li>Voting governance proposal</li>
+              <li>Incentive ekosistem builder</li>
+            </ul>
+          </article>
+          <article class="card chart-card">
+            <h3>Allocation</h3>
+            <div class="allocation">
+              <div class="slice s1">35% Community</div>
+              <div class="slice s2">25% Ecosystem</div>
+              <div class="slice s3">20% Treasury</div>
+              <div class="slice s4">12% Team</div>
+              <div class="slice s5">8% Advisors</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section container">
+        <h2>Roadmap 2026</h2>
+        <div class="timeline">
+          <div class="milestone">
+            <span>Q1</span>
+            <p>Mainnet V2 + bridge multichain release.</p>
+          </div>
+          <div class="milestone">
+            <span>Q2</span>
+            <p>Launch grants program untuk 100 dApps pertama.</p>
+          </div>
+          <div class="milestone">
+            <span>Q3</span>
+            <p>Native zk-rollup support & privacy extension.</p>
+          </div>
+          <div class="milestone">
+            <span>Q4</span>
+            <p>DAO governance penuh dan mobile validator app.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section container">
+        <h2>FAQ</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Apa ini website resmi ParagonChain?</summary>
+            <p>
+              Bukan. Ini adalah website custom bergaya tampilan ParagonChain untuk kebutuhan demo/prototipe.
+            </p>
+          </details>
+          <details>
+            <summary>Bagaimana cara mulai staking?</summary>
+            <p>Hubungkan wallet, pilih validator, lalu tentukan jumlah token yang akan di-stake.</p>
+          </details>
+          <details>
+            <summary>Apakah desain ini responsive?</summary>
+            <p>Ya, layout dioptimalkan untuk desktop, tablet, dan perangkat mobile.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Paragon Nexus. All rights reserved.</p>
+        <div>
+          <a href="#">Twitter</a>
+          <a href="#">Discord</a>
+          <a href="#">Docs</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
