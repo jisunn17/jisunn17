@@ -1,6 +1,6 @@
 # Paragon Nexus Landing Page
 
-Website statis bertema Web3 yang terinspirasi dari tampilan `app.paragonchain.org`.
+Website statis bertema Web3.
 
 ## Menjalankan secara lokal
 
